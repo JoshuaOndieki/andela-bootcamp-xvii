@@ -1,5 +1,5 @@
 import unittest
-from .loan import loan_calculator
+from .loan_calculator import loan_calculator
 
 
 class Loan(unittest.TestCase):
