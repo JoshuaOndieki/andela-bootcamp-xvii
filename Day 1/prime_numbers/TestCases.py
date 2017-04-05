@@ -20,4 +20,4 @@ class PrimeTest(unittest.TestCase):
         self.assertGreater(min(prime_numbers(50)),0)
 
     def test_does_not_include_non_primes(self):
-        self.assertNotIn([0,1,2,4,6],prime_numbers(6))
+        self.assertNotIn([0,1,4,6],prime_numbers(6))
