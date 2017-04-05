@@ -14,7 +14,7 @@ class PrimeTest(unittest.TestCase):
         self.assertTrue(isinstance(prime_numbers(10), list), msg="The function should return a list")
 
     def test_returns_0_for_negative_input(self):
-        self.assertEquals(prime_numbers(-30),"No prime numbers within that range! All prime numbers are positive",msg="There are no negative primes")
+        self.assertEqual(prime_numbers(-30),"No prime numbers within that range! All prime numbers are positive",msg="There are no negative primes")
 
     def test_does_not_return_negative_primes(self):
         self.assertGreater(min(prime_numbers(50)),0)
