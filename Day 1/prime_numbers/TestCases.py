@@ -1,6 +1,6 @@
 #prime numbers function test cases
 import unittest
-from .prime import prime_numbers
+from prime import prime_numbers
 
 class PrimeTest(unittest.TestCase):
     def test_returns_prime_numbers(self):
@@ -21,3 +21,6 @@ class PrimeTest(unittest.TestCase):
 
     def test_does_not_include_non_primes(self):
         self.assertNotIn([0,1,4,6],prime_numbers(6))
+
+if __name__=='__main__':
+    unittest.main()
