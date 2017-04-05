@@ -1,5 +1,5 @@
 import unittest
-from .loan_calculator import loan_calculator
+from loan_calculator import loan_calculator
 
 
 class Loan(unittest.TestCase):
@@ -18,3 +18,6 @@ class Loan(unittest.TestCase):
 
     def test_rate_is_not_greater_than_hundred(self):
         self.assertEquals(loan_calculator(100000, 101, 13), "Invalid rate!")
+
+if __name__=='__main__':
+    unittest.main()
