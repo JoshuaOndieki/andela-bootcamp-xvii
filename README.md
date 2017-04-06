@@ -24,7 +24,7 @@ This challenges are divided into days as follows:
  |~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~
  | 04 |Andelabs: Binary Search   |                      
  |    |Andelabs: Missing Number  |                      
- |    |Front-End                 |                      
+ |    |Front-End                 |[Facebook HomePage clone served from here](https://cdn.rawgit.com/JoshuaOndieki/joshua-ondieki-bootcamp-17/4a00a4b4/Day%204/index.html)                      
  |    |Writing Professionally    |[Medium Blog](https://www.medium.com/@joshuaondieki)
  |~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~
  | 05 |                          |                      
