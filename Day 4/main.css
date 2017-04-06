@@ -1,0 +1,60 @@
+                    body{
+                        background: #e9ebee;
+                    }
+                    #bar{
+                        width: 100%;
+                        height: 83px;
+                        background: #3b5998;
+                        margin: 0px -10px 0px -10px;;
+                    }
+                    .facebook{
+                        color: white;
+                        background: transparent;
+                        font-size: 36px;
+                        font-weight: bold;
+                        padding: 30px 0px 0px 200px;
+
+                    }
+                    .noborder{
+                        border: 0px;
+                        margin: 100px 0px 0px 200px;
+                    }
+                    #regform{
+                        display: inline-block;
+                        color: aqua;
+                        display: inline-block;
+                        margin-left: 800px;
+                        margin-top: -350px;
+                        width: 500px;
+                    }
+                    #login{
+                        display: inline-block;
+                        margin-left: 900px;
+                        margin-top: -55px;
+                        width: 400px;
+                    }
+                    label{
+                        color: black;
+                        display: block;
+                        font-size: 68px;
+                    }
+                    #fbconnect{
+                        font-size: 20px;
+                        color: #0e385f;
+                        font-weight: bold;
+                        word-spacing: -1px;
+                        margin-top: 40px;
+                        margin-left: 200px;
+                        width: 450px;
+                    }
+                    #regform > input {
+                        border-radius: 7px;
+                        height: 35px;
+                        color: darkgray;
+                        text-align:justify;
+                        font-size: 16px;
+                        text-indent: 10px;
+                    }
+                    p{
+                        color: darkgrey;
+                    }
