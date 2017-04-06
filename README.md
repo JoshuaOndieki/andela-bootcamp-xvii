@@ -1,5 +1,6 @@
 #                              andela-bootcamp-xvii
-##This is a repository for Andela cohort XVII-KE bootcamp coding challenges
+This is a repository for Andela cohort XVII-KE bootcamp coding challenges
+
 This challenges are divided into days as follows:
 
  |Day |Tasks                     |links                                               |
