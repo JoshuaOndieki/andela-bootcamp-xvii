@@ -16,6 +16,7 @@
                         background: transparent;
                         font-size: 36px;
                         font-weight: bold;
+                        padding: 30px 0px 0px 200px;
                     }
                     .noborder{
                         border: 0px;
@@ -32,7 +33,7 @@
                     #login{
                         display: inline-block;
                         margin-left: 900px;
-                        margin-top: -30px;
+                        margin-top: -55px;
                         width: 400px;
                     }
                     label{
@@ -55,13 +56,14 @@
                         color: darkgray;
                         text-align:justify;
                         font-size: 16px;
-                        
+                        text-indent: 10px;
                     }
                 </style>
             </head>
             <body>
                 <div id="bar">
                     <div class="facebook">Facebook</div>
+<!--
                     <form id="login">
                           <div>Email or Phone:<br>
   <input type="text" name="email-phone">
@@ -74,6 +76,42 @@
                         <br>
   <input type="submit" value="Login">
                     </form>
+-->
+                    <table id="login" cellspacing="0" role="presentation">
+  <tbody>
+  
+    <tr>
+      <td>
+        <label style="font-size: 14px; color: white;" for="email">Email or Phone</label>
+      </td>
+      <td>
+        <label style="font-size: 14px; color: white;" for="pass">Password</label>
+      </td>
+    </tr>
+      
+    <tr>
+      <td>
+        <input type="email" name="email" id="email" value="" tabindex="1">
+      </td>
+      <td>
+        <input type="password" tabindex="2">
+      </td>
+      <td>
+        <input style="cursor: pointer; background: darkblue; border-radius: 2px; border: none; color: white; opacity: 0.9;" value="Log In" tabindex="4" type="submit">
+       </td>
+    </tr>
+     
+    <tr>
+       <td class="login_form_label_field">
+       </td>
+       <td class="login_form_label_field">
+         <div>
+           <a href="#">Forgotten account?</a>
+         </div>
+       </td>
+    </tr>
+ </tbody>
+                    </table>
                 </div>
                 
                 <div id="content">
@@ -83,7 +121,7 @@
                     
             <form id="regform">
                 <label>Create an acount</label>
-                <label style="font-size: 30px;">Its free and always will be</label>
+                <label style="font-size: 30px; margin-bottom: 20px;">Its free and always will be</label>
   <input type="text" name="firstname" value="First Name">
   <input type="text" name="surname" value="Surname">
   <input style="width: 90%;" type="text" name="firstname" value="Mobile number or email address">
