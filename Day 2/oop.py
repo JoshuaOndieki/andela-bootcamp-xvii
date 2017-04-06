@@ -20,7 +20,8 @@ class BankAccount(object):  #Common properties of bank accounts in BankAccount c
             self.balance-=amount
 
 class PremiumBankAccount(BankAccount):  # Inheritance:: PremiumBankAccount inherits from parent BankAccount
-    def __init__(self):
+    def __init__(self, owner_name,owner_id,balance,account_type):
+	super().__init__(owner_name,owner_id,balance,account_type)
         self.__business_loan=0  # Encapsulation
 
 
@@ -33,7 +34,8 @@ class PremiumBankAccount(BankAccount):  # Inheritance:: PremiumBankAccount inher
 
 
 class StandardBankAccount(BankAccount):  # Inheritance:: StandardBankAccount inherits from parent BankAccount
-    def __init__(self):
+    def __init__(self,owner_name,owner_id,balance,account_type):
+	super().__init__(owner_name,owner_id,balance,account_type)
         self.__small_loan=0  # Encapsulation
 
 
