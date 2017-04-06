@@ -19,10 +19,12 @@ This challenges are divided into days as follows:
  | 03 |                          |                                                    |
  |    |Andelabs: Word Count Lab  |                                                    |
  |    |Andelabs: Max & Min Number|                                                    |
+ |    |Http & Web                |[Google-search-cli](https://github.com/JoshuaOndieki/google-search-cli)|
  |    |Writing Professionally    |[Medium Blog](https://www.medium.com/@joshuaondieki)|
  |~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
  | 04 |Andelabs: Binary Search   |                                                    |
  |    |Andelabs: Missing Number  |                                                    |
+ |    |Front-End                 |                                                    |
  |    |Writing Professionally    |[Medium Blog](https://www.medium.com/@joshuaondieki)|
  |~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
  | 05 |                          |                                                    |
